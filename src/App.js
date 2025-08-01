@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
 import About from './components/About';
 import Reviews from './components/Reviews';
 import Awards from './components/Awards';
@@ -11,13 +11,13 @@ import Services from './components/Services';
 
 function App() {
   return (
-    // <Router  basename="/Aarogyam">
-    <Router>
+    <Router  basename="/Aarogyam">
+    {/* <Router> */}
       <div className="d-flex flex-column min-vh-100">
         <NavbarComponent />
         <main className="flex-grow-1">
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<Navigate to="/about" replace />} />
             <Route path="/about" element={<About />} />
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/awards" element={<Awards />} />
