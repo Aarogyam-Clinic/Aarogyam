@@ -1,18 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route,Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import About from './components/About';
 import Reviews from './components/Reviews';
 import Awards from './components/Awards';
 import Appointment from './components/Appointment';
 import Contact from './components/Contact';
 import NavbarComponent from './components/NavbarComponent';
-import Footer from './components/Footer'; // ✅ Import Footer
+import Footer from './components/Footer';
 import Services from './components/Services';
 
 function App() {
   return (
-    <Router  basename="/Aarogyam">
-    {/* <Router> */}
+    <Router basename="/Aarogyam">
       <div className="d-flex flex-column min-vh-100">
         <NavbarComponent />
         <main className="flex-grow-1">
@@ -23,11 +22,10 @@ function App() {
             <Route path="/awards" element={<Awards />} />
             <Route path="/appointment" element={<Appointment />} />
             <Route path="/contact-us" element={<Contact />} />
-                        <Route path="/our-services" element={<Services />} />
-
+            <Route path="/our-services" element={<Services />} />
           </Routes>
         </main>
-        <Footer /> {/* ✅ Always visible */}
+        <Footer />
       </div>
     </Router>
   );
