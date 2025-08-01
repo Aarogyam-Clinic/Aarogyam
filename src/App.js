@@ -11,7 +11,7 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <Router>
+    <Router  basename="/Aarogyam-website">
       <div className="d-flex flex-column min-vh-100">
         <NavbarComponent />
         <main className="flex-grow-1">
