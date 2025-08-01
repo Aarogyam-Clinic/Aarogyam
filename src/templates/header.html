@@ -1,0 +1,28 @@
+<!-- templates/fragments/header.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-white shadow-sm">
+        <div class="container d-flex align-items-center py-2">
+          <img
+            th:src="@{/assets/doctor.jpg}"
+            alt="Doctor"
+            height="50"
+            class="me-3"
+          />
+          <span
+            style="
+              font-family: 'Playfair Display', serif;
+              font-weight: 700;
+              font-size: 1.8rem;
+              color: #0d6efd;
+            "
+          >
+            Aarogyam Physiotherapy Clinic
+          </span>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+/* App.css or index.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #7096bc;
+  margin: 0;
+    padding-top: 0px; /* Adjust if your navbar is taller */
+
+}
+
+/* Navbar styles */
+.navbar-custom {
+  background-color: #007bff;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-custom .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: auto;
+}
+
+.footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
