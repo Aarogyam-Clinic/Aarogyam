@@ -103,3 +103,17 @@ ul.about-list li::marker {
 .navbar img:hover {
   transform: scale(1.1);
 }
+section {
+  background-color: #f8f9fa;
+}
+
+h2, h5 {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-outline-primary {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+

@@ -20,7 +20,7 @@ const NavbarComponent = () => {
           <div className="d-flex gap-4 flex-wrap justify-content-end">
             <div>📞 9074248502</div>
             <div>🕒 Mon-Sun 8 am to 10 pm</div>
-            <div>📧 pingakhsraj@gmail.com</div>
+            <div>📧 Aarogyamphysio1@gmail.com</div>
           </div>
         </Container>
       </div>
@@ -66,9 +66,9 @@ const NavbarComponent = () => {
 
               <Nav.Link as={Link} to="/reviews" active={location.pathname === "/reviews"}>Patient Reviews</Nav.Link>
               <Nav.Link as={Link} to="/our-services" active={location.pathname === "/our-services"}>Our Services</Nav.Link>
-              <Nav.Link as={Link} to="/contact-us" active={location.pathname === "/contact-us"}>Contact Us</Nav.Link>
-              <Nav.Link as={Link} to="/awards" active={location.pathname === "/awards"}>Awards</Nav.Link>
               <Nav.Link as={Link} to="/appointment" active={location.pathname === "/appointment"}>Appointment</Nav.Link>
+              <Nav.Link as={Link} to="/awards" active={location.pathname === "/awards"}>Awards</Nav.Link>
+              <Nav.Link as={Link} to="/contact-us" active={location.pathname === "/contact-us"}>Contact Us</Nav.Link>
 
              
             </Nav>
